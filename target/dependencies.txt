@@ -1,0 +1,22 @@
+digraph "com.qbus:mvn_java:jar:1" { 
+	"com.qbus:mvn_java:jar:1" -> "org.testng:testng:jar:7.5:test" ; 
+	"com.qbus:mvn_java:jar:1" -> "io.rest-assured:rest-assured:jar:5.1.0:test" ; 
+	"org.testng:testng:jar:7.5:test" -> "com.google.code.findbugs:jsr305:jar:3.0.1:test" ; 
+	"org.testng:testng:jar:7.5:test" -> "org.slf4j:slf4j-api:jar:1.7.32:test" ; 
+	"org.testng:testng:jar:7.5:test" -> "com.beust:jcommander:jar:1.78:test" ; 
+	"org.testng:testng:jar:7.5:test" -> "org.webjars:jquery:jar:3.5.1:test" ; 
+	"io.rest-assured:rest-assured:jar:5.1.0:test" -> "org.apache.groovy:groovy:jar:4.0.1:test" ; 
+	"io.rest-assured:rest-assured:jar:5.1.0:test" -> "org.apache.groovy:groovy-xml:jar:4.0.1:test" ; 
+	"io.rest-assured:rest-assured:jar:5.1.0:test" -> "org.apache.httpcomponents:httpclient:jar:4.5.13:test" ; 
+	"io.rest-assured:rest-assured:jar:5.1.0:test" -> "org.apache.httpcomponents:httpmime:jar:4.5.13:test" ; 
+	"io.rest-assured:rest-assured:jar:5.1.0:test" -> "org.hamcrest:hamcrest:jar:2.1:test" ; 
+	"io.rest-assured:rest-assured:jar:5.1.0:test" -> "org.ccil.cowan.tagsoup:tagsoup:jar:1.2.1:test" ; 
+	"io.rest-assured:rest-assured:jar:5.1.0:test" -> "io.rest-assured:json-path:jar:5.1.0:test" ; 
+	"io.rest-assured:rest-assured:jar:5.1.0:test" -> "io.rest-assured:xml-path:jar:5.1.0:test" ; 
+	"org.apache.httpcomponents:httpclient:jar:4.5.13:test" -> "org.apache.httpcomponents:httpcore:jar:4.4.13:test" ; 
+	"org.apache.httpcomponents:httpclient:jar:4.5.13:test" -> "commons-logging:commons-logging:jar:1.2:test" ; 
+	"org.apache.httpcomponents:httpclient:jar:4.5.13:test" -> "commons-codec:commons-codec:jar:1.11:test" ; 
+	"io.rest-assured:json-path:jar:5.1.0:test" -> "org.apache.groovy:groovy-json:jar:4.0.1:test" ; 
+	"io.rest-assured:json-path:jar:5.1.0:test" -> "io.rest-assured:rest-assured-common:jar:5.1.0:test" ; 
+	"io.rest-assured:xml-path:jar:5.1.0:test" -> "org.apache.commons:commons-lang3:jar:3.11:test" ; 
+ } 
