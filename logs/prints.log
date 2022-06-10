@@ -1,0 +1,9 @@
+12:45:53.048 [main] DEBUG alpha.demo1 - I am debugging
+12:45:53.050 [main] INFO  alpha.demo1 - info message
+12:45:53.050 [main] ERROR alpha.demo1 - error message
+12:47:05.887 [main] DEBUG alpha.demo1 - I am debugging
+12:47:05.893 [main] INFO  alpha.demo1 - info message
+12:47:05.894 [main] ERROR alpha.demo1 - error message
+12:48:20.793 [main] DEBUG alpha.demo1 - I am debugging
+12:48:20.795 [main] INFO  alpha.demo1 - info message
+12:48:20.795 [main] ERROR alpha.demo1 - error message
